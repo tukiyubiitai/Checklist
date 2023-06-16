@@ -1,0 +1,44 @@
+---
+name: todo
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  drift: ^2.8.0
+  sqlite3_flutter_libs: ^0.5.15
+  path: ^1.8.0
+  shrink_sidemenu: ^2.0.0+2-null-safety
+  intl: ^0.18.1
+  flutter_local_notifications:
+  flutter_native_timezone:
+  path_provider:
+  rxdart:
+  http:
+  timezone:
+  flutter_material_color_picker:
+  provider:
+  flutter_launcher_icons:
+  settings_ui:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  drift_dev: ^2.8.3
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+
+#  追加
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/play_store_512.png"
